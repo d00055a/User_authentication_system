@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/User_authentication_system/'
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 5be6ea3fee4677609a468473a29dffcc10e79c92
