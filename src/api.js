@@ -35,3 +35,11 @@ export async function getMe() {
   });
   return res.json();
 }
+
+export async function getSecret() {
+  const res = await fetch(`${API_URL}/api/auth/secret`, {
+    method: 'GET',
+    credentials: 'include',
+  });
+  return res.json();
+}

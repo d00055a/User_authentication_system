@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getMe, logout } from './api';
+import { getMe, logout, getSecret } from './api';
 
 export default function Dashboard({ user, setUser }) {
   const [secret, setSecret] = useState('');
@@ -16,26 +16,26 @@ export default function Dashboard({ user, setUser }) {
   };
 
   const fetchSecret = async () => {
-    const res = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/secret`, {
-      credentials: 'include',
-    });
-    const data = await res.json();
+    const data = await getSecret();
     setSecret(data.message || data.error);
   };
 
   return (
+
     <div>
 
       <h2>Welcome, {user?.username}</h2>
 
       <div className="buttons-vertical">
-      <button onClick={handleLogout}>Logout</button>
-      <hr className="divider" />      
-      <button style={{height: "80px"}}onClick={fetchSecret}>Get secret message</button>
+        <button onClick={handleLogout}>Logout</button>
+        <hr className="divider" />      
+        <button style={{height: "80px"}} onClick={fetchSecret}>Get secret message</button>
       </div>
-
+      
       <p className='secretMsg'>{secret}</p>
 
     </div>
+
   );
+
 }
