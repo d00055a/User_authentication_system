@@ -4,13 +4,12 @@
   box-sizing: border-box;
 }
 
-
 .app {
   text-align: center;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;   
-  min-height: 100dvh;    
+  min-height: 100vh;
+  min-height: 100dvh;
   width: 100%;
   margin: 0;
   background-color: #f6f7fb;
@@ -24,6 +23,10 @@
   to { opacity: 1; }
 }
 
+.fade-in {
+  animation: fadeIn 0.8s ease-in;
+}
+
 .app-header {
   background-color: #13a5ca;
   color: rgba(255, 255, 255, 0.938);
@@ -31,7 +34,6 @@
   text-align: center;
   border-bottom: 2px solid #d1d5db;
 }
-
 
 .content {
   margin: 0 auto;
@@ -55,9 +57,8 @@
 
 input {
   width: 350px;
-  height: 200px;
+  height: 40px; 
   flex: 1;
-  padding: 10px;
   padding: 0.4rem 0.5rem;
   border: 1px solid #fffdff;
   border-radius: 5.56px;
@@ -75,8 +76,7 @@ button {
   background-color: #f3f5f5f0;
   color: rgb(0, 0, 0);
   width: 78px;
-  height: 60px;
-  padding: 10px;
+  height: 40px;
   padding: 0.5rem 0.5rem;
   border: 1px solid #fffdff;
   border-radius: 6px;
@@ -84,25 +84,19 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   color: rgb(42, 21, 231);
 }
 
-.buttons{
+.buttons {
   display: flex;
   gap: 50px;
-  justify-content: center; 
-  align-items: center;    
+  justify-content: center;
+  align-items: center;
   margin-top: 5%;
-  width: 120x;
 }
 
-
-.buttons button {
-  height: 60px; 
-}
-
-h2{
+h2 {
   margin-bottom: 7.51%;
 }
 
@@ -110,23 +104,22 @@ h2{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-items: center; 
+  align-items: center;
 }
 
 .divider {
   width: 100%;
   border: none;
   border-top: 3px solid bisque;
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
-
-.secretMsg{
+.secretMsg {
   margin-top: 10%;
   font-size: 19px;
 }
 
-.errorStyle{
+.errorStyle {
   color: rgb(222, 3, 3);
   margin-top: 10%;
   font-size: 19px;
@@ -139,4 +132,28 @@ h2{
   margin-top: auto;
   text-align: center;
   border-top: 1px solid #d1d5db;
+}
+
+/* Responsibility for mobile/tablet */
+
+@media (max-width: 600px) {
+  .content {
+    width: 90%;
+    padding: 1rem;
+    margin-top: 5%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  button {
+    width: 100%;
+    height: 45px;
+  }
 }
