@@ -59,7 +59,7 @@ Open http://localhost:5173 in your browser. <br><br>
    ```bash
    npm run deploy    
 
-<br><br>
+<br>
 
 ## Features
 
