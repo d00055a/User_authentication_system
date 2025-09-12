@@ -44,9 +44,18 @@ export default function AuthForm({ setUser }) {
              <div className='buttons'>
                 <button type="submit">{mode === 'login' ? 'Login' : 'Register'}</button>
 
-                <button onClick={() => setMode(mode === 'login' ? 'register' : 'login')}>
-                 {mode === 'login' ? 'Create account' : 'Back to login'}
-                 </button>
+              <button
+                   type="button"
+                   onClick={() => {
+                   setMode(mode === 'login' ? 'register' : 'login');
+                   setError('');
+                }}
+              >
+                
+  {mode === 'login' ? 'Create account' : 'Back to login'}
+                
+               </button>
+
              </div>  
 
       </form>
