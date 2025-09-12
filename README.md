@@ -6,13 +6,6 @@ It communicates with the backend hosted on **Render** to provide full user regis
 
 
 
-## Live demo
-
-- **Frontend:** [https://d00055a.github.io/User_authentication_system](https://d00055a.github.io/User_authentication_system)  
-- **Backend API:** [https://user-authentication-backend-3dvc.onrender.com](https://user-authentication-backend-3dvc.onrender.com) <br><br>
-
-
-
 ## Technologies used
 
 - **React 19** – UI library
@@ -21,6 +14,11 @@ It communicates with the backend hosted on **Render** to provide full user regis
 - **CSS** – Custom styling (with responsiveness and animations)
 - **gh-pages** – Deployment to GitHub Pages
 - **Fetch API** – Communication with backend <br><br>
+
+## Live demo
+
+- **Frontend:** [https://d00055a.github.io/User_authentication_system](https://d00055a.github.io/User_authentication_system)  
+- **Backend API:** [https://user-authentication-backend-3dvc.onrender.com](https://user-authentication-backend-3dvc.onrender.com) <br><br>
 
 
 ## Local setup
