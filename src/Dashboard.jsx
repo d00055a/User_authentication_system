@@ -34,6 +34,15 @@ export default function Dashboard({ user, setUser }) {
       
       <p className='secretMsg'>{secret}</p>
 
+      {error && (
+        <div>
+
+          <p className="errorStyle">{error}</p>
+
+        </div>
+
+      )}
+
     </div>
 
   );
