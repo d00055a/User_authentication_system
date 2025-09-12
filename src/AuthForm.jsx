@@ -56,6 +56,7 @@ export default function AuthForm({ setUser }) {
               required
             />
             <input
+              type="email"
               name="email"
               placeholder="Email"
               onChange={handleChange}
