@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { register, login } from './api';
 
 export default function AuthForm({ setUser }) {
@@ -11,6 +11,7 @@ export default function AuthForm({ setUser }) {
   const handleSubmit = async e => {
     e.preventDefault();
     setError('');
+
     const data = mode === 'login'
       ? await login({ emailOrUsername: form.emailOrUsername, password: form.password })
       : await register({ username: form.username, email: form.email, password: form.password });
@@ -19,54 +20,50 @@ export default function AuthForm({ setUser }) {
     else setUser(data.user);
   };
 
-  return (
-    <div>
+  useEffect(() => {
+    setError('');
+  }, [mode]);
+  
 
+  return (
+    
+    <div>
+      
       <h2>{mode === 'login' ? 'Login' : 'Register'}</h2>
 
       <form onSubmit={handleSubmit} className='form'>
 
         {mode === 'register' && (
-
-            <>
+          <>
             <input name="username" placeholder="Username" onChange={handleChange} required />
             <input name="email" placeholder="Email" onChange={handleChange} required />
-            </>
-
+          </>
         )}
 
         {mode === 'login' && (
           <input name="emailOrUsername" placeholder="Email or Username" onChange={handleChange} required />
         )}
 
-             <input name="password" type="password" placeholder="Password" onChange={handleChange} required />
+        <input name="password" type="password" placeholder="Password" onChange={handleChange} required />
 
-             <div className='buttons'>
-                <button type="submit">{mode === 'login' ? 'Login' : 'Register'}</button>
+        <div className='buttons'>
+          <button type="submit">{mode === 'login' ? 'Login' : 'Register'}</button>
 
-              <button
-                   type="button"
-                   onClick={() => {
-                   setMode(mode === 'login' ? 'register' : 'login');
-                   setError('');
-                }}
-              >
-                
-  {mode === 'login' ? 'Create account' : 'Back to login'}
-                
-               </button>
-
-             </div>  
-
+          <button
+            type="button"
+            onClick={() => setMode(mode === 'login' ? 'register' : 'login')}
+          >
+            {mode === 'login' ? 'Create account' : 'Back to login'}
+          </button>
+        </div>
       </form>
 
       {error && <p className='errorStyle'>{error}</p>}
-
-
+      
     </div>
-
+    
   );
-
+  
 }
 
         
