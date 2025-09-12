@@ -34,9 +34,8 @@ export default function Dashboard({ user, setUser }) {
       
       <p className='secretMsg'>{secret}</p>
 
-
     </div>
 
   );
-
+  
 }
