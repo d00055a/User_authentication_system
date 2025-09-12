@@ -2,14 +2,14 @@
 
 
 This is the **frontend** of the *User Authentication System* project, built with **React + Vite** and deployed on **GitHub Pages**.  
-It communicates with the backend hosted on **Render** to provide full user registration, login, logout and protected route access functionality.
+It communicates with the backend hosted on **Render** to provide full user registration, login, logout and protected route access functionality. <br><br>
 
 
 
 ## Live demo
 
 - **Frontend:** [https://d00055a.github.io/User_authentication_system](https://d00055a.github.io/User_authentication_system)  
-- **Backend API:** [https://user-authentication-backend-3dvc.onrender.com](https://user-authentication-backend-3dvc.onrender.com)
+- **Backend API:** [https://user-authentication-backend-3dvc.onrender.com](https://user-authentication-backend-3dvc.onrender.com) <br><br>
 
 
 
@@ -20,7 +20,7 @@ It communicates with the backend hosted on **Render** to provide full user regis
 - **JavaScript (ESM)** – Application logic
 - **CSS** – Custom styling (with responsiveness and animations)
 - **gh-pages** – Deployment to GitHub Pages
-- **Fetch API** – Communication with backend
+- **Fetch API** – Communication with backend <br><br>
 
 
 ## Local setup
@@ -46,7 +46,7 @@ It communicates with the backend hosted on **Render** to provide full user regis
    ```bash
    npm run dev
    
-Open http://localhost:5173 in your browser.
+Open http://localhost:5173 in your browser. <br><br>
 
 
 ## Deploy to GitHub Pages
@@ -59,7 +59,7 @@ Open http://localhost:5173 in your browser.
 2. Build and deploy:
 
    ```bash
-   npm run deploy
+   npm run deploy    <br><br>
    
 
 ## Features
@@ -72,7 +72,7 @@ Open http://localhost:5173 in your browser.
 
 - /me – Retrieves the logged-in user’s data.
 
-- /secret – Protected route returning a message only for authenticated users.
+- /secret – Protected route returning a message only for authenticated users.  <br><br>
 
 
   License © 2025 Daniel Dedja. All rights reserved.
