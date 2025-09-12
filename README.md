@@ -29,7 +29,7 @@ It communicates with the backend hosted on **Render** to provide full user regis
    
    ```bash
    git clone https://github.com/d00055a/User_authentication_system.git
-   cd User_authentication_system
+   cd User_authentication_system 
 
 2. **Install dependencies**
 
