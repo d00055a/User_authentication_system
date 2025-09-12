@@ -71,7 +71,7 @@ Open http://localhost:5173 in your browser. <br><br>
 
 - **/me** – Retrieves the logged-in user’s data.
 
-- **/secret** – Protected route returning a message only for authenticated users.  <br><br>
+- **/secret** – Protected route returning a message only for authenticated users.  <br><br><br>
 
 
   License © 2025 Daniel Dedja. All rights reserved.
