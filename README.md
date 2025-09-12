@@ -64,15 +64,15 @@ Open http://localhost:5173 in your browser. <br><br>
 
 ## Features
 
-- Register – Creates a new user and sets an httpOnly JWT cookie.
+- **Register** – Creates a new user and sets an httpOnly JWT cookie.
 
-- Login – Authenticates the user and maintains the session via cookie.
+- **Login** – Authenticates the user and maintains the session via cookie.
 
-- Logout – Clears the cookie and ends the session.
+- **Logout** – Clears the cookie and ends the session.
 
-- /me – Retrieves the logged-in user’s data.
+- **/me** – Retrieves the logged-in user’s data.
 
-- /secret – Protected route returning a message only for authenticated users.  <br><br>
+- **/secret** – Protected route returning a message only for authenticated users.  <br><br>
 
 
   License © 2025 Daniel Dedja. All rights reserved.
