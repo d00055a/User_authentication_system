@@ -29,6 +29,7 @@ export default function AuthForm({ setUser }) {
       ? await login({ emailOrUsername: form.emailOrUsername, password: form.password })
       : await register({ username: form.username, email: form.email, password: form.password });
 
+
     if (mode === currentMode && data.error) {
       setError(data.error);
     } else if (data.user) {
