@@ -59,8 +59,9 @@ Open http://localhost:5173 in your browser. <br><br>
 2. Build and deploy:
 
    ```bash
-   npm run deploy    <br><br>
-   
+   npm run deploy    
+
+<br><br>
 
 ## Features
 
