@@ -19,7 +19,10 @@ export default function App() {
 
         <p className='description'>Authentication demo</p>
 
-         {user ? <Dashboard user={user} setUser={setUser} /> : <AuthForm setUser={setUser} />}
+      {user 
+            ? <div className="fade-in"><Dashboard user={user} setUser={setUser} /></div> 
+            : <div className="fade-in"><AuthForm setUser={setUser} /></div>
+      }
 
      </section>
 
