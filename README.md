@@ -20,6 +20,8 @@ It communicates with the backend hosted on **Render** to provide full user regis
 - **Frontend:** [https://d00055a.github.io/User_authentication_system](https://d00055a.github.io/User_authentication_system)  
 - **Backend API:** [https://user-authentication-backend-3dvc.onrender.com](https://user-authentication-backend-3dvc.onrender.com) <br><br>
 
+- Please note: it may take up to 1 minute for the backend service to wake up (free hosting delay). Once loaded, everything works smoothly !<br><br>
+
 
 ## Local setup
 
