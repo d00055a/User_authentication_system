@@ -57,7 +57,7 @@
 
 input {
   width: 350px;
-  height: 40px; /* më realiste për form */
+  height: 40px;
   flex: 1;
   padding: 0.4rem 0.5rem;
   border: 1px solid #fffdff;
