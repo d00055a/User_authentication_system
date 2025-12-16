@@ -129,7 +129,7 @@ This project was built to practice and demonstrate:
 
 - Real-world deployment and environment configuration
 
-<br/><br/>
+<br/>
 
 
   License © 2025 Daniel Dedja. All rights reserved.
