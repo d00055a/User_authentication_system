@@ -1,11 +1,38 @@
-# User Authentication System
+# Fitness Center Management System
 
 
-This is the **frontend** of the *User Authentication System* project, built with **React + Vite** and deployed on **GitHub Pages**.  
-It communicates with the backend hosted on **Render** to provide full user registration, login, logout and protected route access functionality. <br><br>
+A full-stack **User Authentication System** built with **React (Vite)** on the frontend and **Node.js / Express** on the backend, implementing secure authentication, authorization and protected routes using **JWT**.
 
+The application demonstrates real-world authentication flows, including secure password hashing, session management and role-based access to protected endpoints.
 
+## Features
 
+- User registration with secure password hashing (bcrypt)
+
+- User login with JWT-based authentication
+
+- Session handling via httpOnly cookies
+
+- Logout functionality
+
+- Protected routes accessible only to authenticated users
+
+- Authenticated user data retrieval (/me)
+
+- Secure API endpoint protection (/secret)
+
+## Architecture
+
+- **Frontend**: React + Vite (GitHub Pages)
+
+- **Backend**: Node.js + Express (hosted on Render)
+
+- **Communication**: REST API via Fetch API
+
+- **Authentication**: JWT stored in httpOnly cookies
+
+- **Database**: MongoDB (via backend)
+  
 ## Technologies used
 
 - **React 19** – UI library
