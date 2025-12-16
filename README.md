@@ -35,27 +35,27 @@ The application demonstrates real-world authentication flows, including secure p
   
 ## Tech Stack
 
-**Frontend**
+- **Frontend**
 
-**React 19** – UI library
+- **React 19** – UI library
 
-**Vite** – Development server & build tool
+- **Vite** – Development server & build tool
 
-**JavaScript (ESM)** – Application logic
+- **JavaScript (ESM)** – Application logic
 
-**CSS** – Custom styling, responsiveness & animations
+- **CSS** – Custom styling, responsiveness & animations
 
-**gh-pages** – Deployment to GitHub Pages
+- **gh-pages** – Deployment to GitHub Pages
 
 **Backend**
 
-**Node.js & Express** – REST API
+- **Node.js & Express** – REST API
 
-**MongoDB** – User data storage
+- **MongoDB** – User data storage
 
-**bcrypt** – Password hashing
+- **bcrypt** – Password hashing
 
-**JWT** – Authentication & authorization
+- **JWT** – Authentication & authorization
 
 ## Live demo
 
