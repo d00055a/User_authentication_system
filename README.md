@@ -65,60 +65,70 @@ https://d00055a.github.io/User_authentication_system
 - **Backend API**:
 https://user-authentication-backend-3dvc.onrender.com
 
-- Note: The backend is hosted on Render (free tier), so the first request may take up to **1 minute** to wake up.
+- **Note**: The backend is hosted on Render (free tier), so the first request may take up to **1 minute** to wake up.
 
 
-## Local setup
+## Run Locally
 
-1. **Clone the repository**
+**Frontend**
    
    ```bash
    git clone https://github.com/d00055a/User_authentication_system.git
-   cd User_authentication_system 
-
-2. **Install dependencies**
+   cd User_authentication_system   
+   npm install
+   ```
+ 
+**Install dependencies**
 
    ```bash
    npm install
 
-3. **Create a .env file** in the frontend root:
+- Create a **.env** file in the frontend root:
 
    ```Env
    VITE_API_URL=http://localhost:4000
-
-4. **Run the development server**
+   ```
+- Run the development server:
 
    ```bash
    npm run dev
+   ```
    
-Open http://localhost:5173 in your browser. <br><br>
+- Open:
+  
+  ```arduino
+  http://localhost:5173 in your browser.
+  ```
 
 
 ## Deploy to GitHub Pages
 
-1. In .env, set the backend production URL:
+- Update **.env** with the production backend URL:
    
-   ```bash
+   ```Env
    VITE_API_URL=https://user-authentication-backend-3dvc.onrender.com
+   ```
 
-2. Build and deploy:
+- Build and deploy:
 
    ```bash
-   npm run deploy    
+   npm run deploy
+   ```   
 
-<br>
 
-## Features
+## Purpose
 
-- **Register** – Creates a new user and sets an httpOnly JWT cookie.
+This project was built to practice and demonstrate:
 
-- **Login** – Authenticates the user and maintains the session via cookie.
+- Secure authentication & authorization
 
-- **Logout** – Clears the cookie and ends the session.
+- JWT-based session management
 
-- **/me** – Retrieves the logged-in user’s data.
+- Full-stack frontend ↔ backend communication
 
-- **/secret** – Protected route returning a message only for authenticated users.  <br><br><br>
+- Real-world deployment and environment configuration
+
+<br/><br/>
 
 
   License © 2025 Daniel Dedja. All rights reserved.
