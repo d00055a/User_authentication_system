@@ -33,21 +33,39 @@ The application demonstrates real-world authentication flows, including secure p
 
 - **Database**: MongoDB (via backend)
   
-## Technologies used
+## Tech Stack
 
-- **React 19** – UI library
-- **Vite** – Development server & build tool
-- **JavaScript (ESM)** – Application logic
-- **CSS** – Custom styling (with responsiveness and animations)
-- **gh-pages** – Deployment to GitHub Pages
-- **Fetch API** – Communication with backend <br><br>
+**Frontend**
+
+**React 19** – UI library
+
+**Vite** – Development server & build tool
+
+**JavaScript (ESM)** – Application logic
+
+**CSS** – Custom styling, responsiveness & animations
+
+**gh-pages** – Deployment to GitHub Pages
+
+**Backend**
+
+**Node.js & Express** – REST API
+
+**MongoDB** – User data storage
+
+**bcrypt** – Password hashing
+
+**JWT** – Authentication & authorization
 
 ## Live demo
 
-- **Frontend:** [https://d00055a.github.io/User_authentication_system](https://d00055a.github.io/User_authentication_system)  
-- **Backend API:** [https://user-authentication-backend-3dvc.onrender.com](https://user-authentication-backend-3dvc.onrender.com) <br><br>
+- **Frontend** :
+https://d00055a.github.io/User_authentication_system
 
-- Please note: it may take up to 1 minute for the backend service to wake up (free hosting delay). Once loaded, everything works smoothly !<br><br>
+- **Backend API**:
+https://user-authentication-backend-3dvc.onrender.com
+
+- Note: The backend is hosted on Render (free tier), so the first request may take up to **1 minute** to wake up.
 
 
 ## Local setup
