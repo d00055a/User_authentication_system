@@ -82,6 +82,7 @@ https://user-authentication-backend-3dvc.onrender.com
 
    ```bash
    npm install
+   ```
 
 - Create a **.env** file in the frontend root:
 
