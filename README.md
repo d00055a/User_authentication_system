@@ -1,7 +1,7 @@
 # Fitness Center Management System
 
 
-A full-stack **User Authentication System** built with **React (Vite)** on the frontend and **Node.js / Express** on the backend, implementing secure authentication, authorization and protected routes using **JWT**.
+A full-stack **User Authentication System** built with **React (Vite)** on the frontend and **Node.js + Express** on the backend, implementing secure authentication, authorization and protected routes using **JWT**.
 
 The application demonstrates real-world authentication flows, including secure password hashing, session management and role-based access to protected endpoints.
 
