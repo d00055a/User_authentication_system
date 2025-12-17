@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://d00055a.github.io/User_authentication_system",
+  "homepage": "https://d00055a.github.io/user-authentication-system",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
