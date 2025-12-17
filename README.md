@@ -60,7 +60,7 @@ The application demonstrates real-world authentication flows, including secure p
 ## Live demo
 
 - **Frontend** :
-https://d00055a.github.io/User_authentication_system
+https://d00055a.github.io/user-authentication-system
 
 - **Backend API**:
 https://user-authentication-backend-3dvc.onrender.com
