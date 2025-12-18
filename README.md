@@ -73,8 +73,8 @@ https://user-authentication-backend-3dvc.onrender.com
 **Frontend**
    
    ```bash
-   git clone https://github.com/d00055a/User_authentication_system.git
-   cd User_authentication_system   
+   git clone https://github.com/d00055a/user-authentication-system.git
+   cd user-authentication-system   
    npm install
    ```
  
